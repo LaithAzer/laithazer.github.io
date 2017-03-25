@@ -88,7 +88,7 @@ On the client the subscription creation would be just like the previous example:
 App.user = App.cable.subscriptions.create("UserChannel")
 {% endhighlight %}
 
-For broadcasting to this channel, we would use the build in class method `broadcast_to` (instead of just `broadcast` as in the previous example):
+For broadcasting to this channel, we would use the built in class method `broadcast_to` (instead of just `broadcast` as in the previous example):
 
 {% highlight ruby %}
 user = User.find(data['user_id'])
@@ -108,3 +108,7 @@ So now only that one unique user subscribed to that channel will receive the mes
 ## Summary
 
 Both ways of creating channels behave the same: you can subscribe to a channel and publish to a channel. The main difference to keep in mind is your use case: if you want to bind a channel to a model in your app (a User for live notifications, an Article for live comments, an Order for live updates, etc.), then use `stream_for`, otherwise you can keep it generic and use `stream_from`.
+
+{% if page.comments %}
+
+{% endif %}
