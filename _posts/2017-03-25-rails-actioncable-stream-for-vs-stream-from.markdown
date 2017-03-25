@@ -53,7 +53,7 @@ ActionCable.server.broadcast("chat_channel_1", "Hello World")
 The server logs would look like this:
 
 {% highlight shell %}
-[ActionCable] Broadcasting to chat_channel: "Hello World"
+[ActionCable] Broadcasting to chat_channel_1: "Hello World"
 ChatChannel transmitting "Hello World" (via streamed from chat_channel_1)
 {% endhighlight %}
 
