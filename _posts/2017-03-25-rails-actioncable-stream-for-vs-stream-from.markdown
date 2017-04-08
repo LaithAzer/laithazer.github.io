@@ -14,7 +14,7 @@ When creating a new ActionCable channel class, you have two possible methods for
 * `stream_from`: expects a string
 * `stream_for`: expects an object
 
-The difference is not entirely clear when following the ActionCable documentation, so I will show two scenarios where it could be useful:
+The difference is not entirely clear when following the ActionCable documentation, so I will show two scenarios in which it could be useful:
 
 ### stream_from
 
