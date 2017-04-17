@@ -51,10 +51,14 @@ layout: default
       {% assign categories = site.categories | sort %}
       {% for category in categories %}
       <h3>{{ category | first }}</h3>
-      <p>{% for posts in category %} {% for post in posts %}
-          <p>{{ post.date | date: "%B %d, %Y" }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %},&nbsp;&nbsp;{% endif %}
-        {% endfor %} {% endfor %}  </p>
+      <p>
+        {% for posts in category %} {% for post in posts %}
+          <div class="post-container">
+            <p>{{ post.date | date: "%B %d, %Y" }}</p>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}
+          </div>
+        {% endfor %} {% endfor %}
+      </p>
       {% endfor %}
     </div>
   </div>
