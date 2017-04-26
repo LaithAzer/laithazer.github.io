@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails ActionCable&#58 stream_for vs stream_from
+title: Rails ActionCable - stream_for vs stream_from
 date: 2017-03-25 14:00
 comments: true
 external-url:
