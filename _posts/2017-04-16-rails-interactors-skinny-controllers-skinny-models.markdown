@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails Interactors - Skinny Models AND Skinny Controllers!
+title: The Interactor Pattern - Skinny Models AND Skinny Controllers!
 date: 2017-04-16 21:00
 comments: true
 external-url:
