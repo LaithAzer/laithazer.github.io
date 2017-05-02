@@ -53,10 +53,13 @@ layout: default
       <h3>{{ category | first }}</h3>
       <p>
         {% for posts in category %} {% for post in posts %}
-          <div class="post-container">
-            <p>{{ post.date | date: "%B %d, %Y" }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}
-          </div>
+        {% assign title = post.title | strip_newlines %}
+          {% if title != '' %}
+            <div class="post-container">
+              <p>{{ post.date | date: "%B %d, %Y" }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}
+            </div>
+          {% endif %}
         {% endfor %} {% endfor %}
       </p>
       {% endfor %}
