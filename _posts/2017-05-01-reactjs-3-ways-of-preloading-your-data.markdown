@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 different ways to load your data
+title: 3 different ways to load your data in React
 date: 2017-05-01 20:00
 comments: true
 external-url:
