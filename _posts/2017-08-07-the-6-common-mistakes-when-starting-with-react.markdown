@@ -13,7 +13,7 @@ During this process, I also get to see how different people approach learning Re
 
 Still though, its patterns are a bit hard to digest in the beginning, and there is so much thrown at you when you first pick it up: "I have to use `state`? How is it different than `props`? What is a container/smart/higher-order/connected component? What is a functional/stateless component? What the hell is Redux?! Is Webpack magic? I think I might go back to jQuery.." (please don't 😬)
 
-From watching lots of students struggle and then start to love React, here are, in my opinion, the five most common mistakes when learning React.
+From watching lots of students struggle and then start to love React, here are, in my opinion, the six most common mistakes when learning React.
 
 ## 1. Trying to do too much, too fast
 
