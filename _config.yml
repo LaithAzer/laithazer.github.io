@@ -1,8 +1,9 @@
 # Site settings
-title: "Laith Azer"
+title: "Laith Azer - Toronto Ruby on Rails & ReactJS developer"
 author: "Laith Azer"
-keywords: ""
-biography: "I am a Toronto based full-stack developer who works with Ruby on Rails and React/Redux"
+keywords: "toronto, web developer, ruby, ruby on rails, actioncable, javascript, reactjs, redux, senior developer, mentor"
+biography: "I am a Toronto based full-stack developer who works with Ruby on Rails and React/Redux. Contact me for independent contracting."
+description: "I am a Toronto based full-stack developer who works with Ruby on Rails and React/Redux. Contact me for independent contracting."
 colophon: ""
 
 baseurl: ""
