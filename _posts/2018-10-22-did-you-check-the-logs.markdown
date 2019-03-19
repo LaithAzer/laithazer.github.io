@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Did you check the logs?
-date: 2018-10-22 00:01
+date: 2018-10-22 00:02
 comments: true
 external-url:
 category: 'Misc'
